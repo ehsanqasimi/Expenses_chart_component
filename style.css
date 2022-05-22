@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #f8e9dd;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-block: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-inline: 15px;
+  align-items: center;
+  gap: 3%;
+}
+
+.container .balance {
+  height: 20%;
+  width: 345px;
+  background-color: #ec775f;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .balance .title {
+  color: #f8e9dd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.container .balance .num {
+  color: #fffaf5;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.container .spending {
+  width: 345px;
+  height: 75%;
+  background-color: #fffaf5;
+  border-radius: 10px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .spending .title {
+  color: #382314;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.container .spending .statistic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10px;
+  padding-top: 50px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container .spending .statistic .day {
+  background-color: #ec775f;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.container .spending .statistic .mon {
+  height: 50px;
+}
+
+.container .spending .statistic .tue {
+  height: 100px;
+}
+
+.container .spending .statistic .wed {
+  height: 150px;
+}
+
+.container .spending .statistic .thu {
+  height: 88px;
+}
+
+.container .spending .statistic .fri {
+  height: 68px;
+}
+
+.container .spending .statistic .sat {
+  height: 125px;
+}
+
+.container .spending .statistic .sun {
+  height: 74px;
+}
+
+.container .spending .dayName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #93867b;
+  width: 100%;
+  gap: 16px;
+  font-size: 18px;
+}
+
+.container .spending .month {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .spending .month .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .spending .month .left .title {
+  color: #93867b;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.container .spending .month .left .amount {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.container .spending .month .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: end;
+}
+
+.container .spending .month .right .amount {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.container .spending .month .right .title {
+  color: #93867b;
+  font-size: 15px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */

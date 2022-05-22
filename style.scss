@@ -1,0 +1,148 @@
+//fonts and variables
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+$DarkBrown: hsl(25, 47%, 15%);
+$MediumBrown: hsl(28, 10%, 53%);
+$Cream: hsl(27, 66%, 92%);
+$VeryPaleOrange: hsl(33, 100%, 98%);
+$SoftRed: hsl(10, 79%, 65%);
+$Cyan: hsl(186, 34%, 60%);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    background-color: $Cream;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-block: 50px;
+    flex-direction: column;
+    padding-inline: 15px;
+    align-items: center;
+    gap: 3%;
+    .balance{
+        height: 20%;
+        width: 345px;
+        background-color: $SoftRed;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+        .title{
+            color: $Cream;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .num{
+            color: $VeryPaleOrange;
+            font-size: 28px;
+            font-weight: 800;
+        }
+    }
+    .spending{
+        width: 345px;
+        height: 75%;
+        background-color: $VeryPaleOrange;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .title{
+            color: $DarkBrown;
+            font-weight: 800;
+            font-size: 25px;
+        }
+        .statistic{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 10px;
+            padding-top: 50px;
+            align-items: flex-end;
+            .day{
+                background-color: $SoftRed;
+                border-radius: 3px;
+                width: 100%;
+            }
+            .mon{
+                height: 50px;
+            }
+            .tue{
+                height: 100px;
+            }
+            .wed{
+                height: 150px;
+            }
+            .thu{
+                height: 88px;
+            }
+            .fri{
+                height: 68px;
+            }
+            .sat{
+                height: 125px;
+            }
+            .sun{
+                height: 74px;
+            }
+
+        }
+        .dayName{
+            display: flex;
+            flex-direction: row;
+            color: $MediumBrown;
+            width: 100%;
+            gap: 16px;
+            font-size: 18px;
+        }
+        .month{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            .left{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .title{
+                    color: $MediumBrown;
+                    font-size: 15px;
+                    font-weight: 300;
+                }
+                .amount{
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+            }
+
+            .right{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: end;
+                .amount{
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+                .title{
+                    color: $MediumBrown;
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
